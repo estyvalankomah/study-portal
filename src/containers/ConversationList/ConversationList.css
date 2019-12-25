@@ -1,0 +1,5 @@
+#conversation-container{
+    grid-area: conversation-container;
+    border-top: 1px solid silver;
+    overflow-y: scroll;
+}

@@ -1,0 +1,16 @@
+#chat-input{
+    grid-area: chat-input;
+    border-left: 1px solid silver;
+    
+}
+
+#chat-input input{
+    width: 85%;
+    height: 50%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-left: 3%;
+}

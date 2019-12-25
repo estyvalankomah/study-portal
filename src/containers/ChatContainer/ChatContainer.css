@@ -1,0 +1,6 @@
+#chat-container{
+    grid-area: chat-container;
+    border: 1px solid silver;
+    border-right: 0;
+    
+}

@@ -1,0 +1,15 @@
+#chat-title{
+    grid-area: chat-title;
+    border-left: 1px solid silver;
+}
+
+#chat-title-container{
+    display: grid;
+    grid-template-columns: 6% 1fr;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+#chat-title-text{
+    padding-top: 2%;
+}
