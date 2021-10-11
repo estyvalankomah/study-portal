@@ -1,0 +1,35 @@
+.conversation-item{
+    border-bottom: 1px solid silver;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 12% 1fr max-content;
+    grid-gap: 0.2%;
+}
+
+img {
+    grid-row: span 2;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.title-text {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3em;
+  }
+  
+.recieved-date {
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+.conversation-message {
+    grid-column: span 2;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
